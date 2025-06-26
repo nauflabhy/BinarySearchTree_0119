@@ -24,4 +24,9 @@ class BinaryTree
     {
         ROOT = nullptr; // Initialize ROOT to null
     }
+
+    void search(int element, Node *&parent, Node *&currentNode)
+    {
+        
+    }
 };
