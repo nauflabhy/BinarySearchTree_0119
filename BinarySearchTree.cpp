@@ -91,6 +91,11 @@ class BinaryTree
             // 7b: Exit
             return;
         }
+    }
 
+    bool isEmpty()
+    {
+        // Check if the tree is empty
+        return ROOT == nullptr;
     }
 };
