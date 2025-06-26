@@ -62,5 +62,11 @@ class BinaryTree
         Node *parent = nullptr;
         Node *currentNode = nullptr;
         search(x, parent, currentNode);
+
+        // Step 5: If parent is NULL (tree is empty)
+        if (parent = nullptr)
+        {
+            
+        }
     }
 };
