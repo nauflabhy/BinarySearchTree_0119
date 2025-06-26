@@ -41,4 +41,11 @@ class BinaryTree
                 currentNode = currentNode->rightchild;
         }
     }
+
+    void insert()
+    {
+        int x;
+        cout << "Masukan nilai: ";
+        cin >> x;
+    }
 };
