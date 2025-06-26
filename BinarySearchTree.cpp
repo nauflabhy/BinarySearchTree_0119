@@ -10,6 +10,6 @@ class Node
     //Constructor for the node class
     Node()
     {
-        
+        leftchild = nullptr; // Initialize left child to null
     }
 };
