@@ -69,7 +69,8 @@ class BinaryTree
             // 5a: Mark the new node as ROOT
             ROOT = newNode;
 
-            
+            // 5b: Exit
+            return;
         }
     }
 };
