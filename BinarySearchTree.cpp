@@ -37,6 +37,8 @@ class BinaryTree
             parent = currentNode;
             if (element < currentNode->info)
                 currentNode = currentNode->leftchild;
+            else 
+                currentNode = currentNode->rightchild;
         }
     }
 };
